@@ -1,0 +1,22 @@
+-- Table: public.proxydetail
+
+-- DROP TABLE IF EXISTS public.proxydetail;
+
+CREATE TABLE IF NOT EXISTS public.proxydetail
+(
+    proxy character varying COLLATE pg_catalog."default"
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.proxydetail
+    OWNER to postgres;
+    
+INSERT INTO public.proxydetail(proxy)VALUES ('http://190.233.17.137:999');
+INSERT INTO public.proxydetail(proxy)VALUES ('http://108.165.187.161:13308');
+INSERT INTO public.proxydetail(proxy)VALUES ('http://108.165.187.204:20783');
+INSERT INTO public.proxydetail(proxy)VALUES ('http://163.5.151.65:17184');
+INSERT INTO public.proxydetail(proxy)VALUES ('http://163.5.151.208:21481');
+INSERT INTO public.proxydetail(proxy)VALUES ('http://103.160.101.40:21320');
+INSERT INTO public.proxydetail(proxy)VALUES ('http://103.160.101.210:34061');
+INSERT INTO public.proxydetail(proxy)VALUES ('http://50.114.27.253:18160');
